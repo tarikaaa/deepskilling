@@ -24,14 +24,14 @@ public class AAATest {
     @Test
     public void testAddition() {
 
-        // Arrange
+       
         int a = 10;
         int b = 20;
 
-        // Act
+       
         int result = calculator.add(a, b);
 
-        // Assert
+        
         assertEquals(30, result);
     }
 }
