@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.example.AppTest" time="0.002" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.example.MyServiceTest" time="1.232" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\harih\Downloads\Cognizant deepskillling\JUnitDemo\target\test-classes;C:\Users\harih\Downloads\Cognizant deepskillling\JUnitDemo\target\classes;C:\Users\harih\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\harih\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="C:\Users\harih\Downloads\Cognizant deepskillling\MockitoDemo\MockitoDemo\target\test-classes;C:\Users\harih\Downloads\Cognizant deepskillling\MockitoDemo\MockitoDemo\target\classes;C:\Users\harih\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\harih\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\harih\.m2\repository\org\mockito\mockito-core\5.18.0\mockito-core-5.18.0.jar;C:\Users\harih\.m2\repository\net\bytebuddy\byte-buddy\1.17.5\byte-buddy-1.17.5.jar;C:\Users\harih\.m2\repository\net\bytebuddy\byte-buddy-agent\1.17.5\byte-buddy-agent-1.17.5.jar;C:\Users\harih\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;"/>
     <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.3.9-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\harih\AppData\Local\Temp\surefire14884707115951080882\surefirebooter-20260724112128967_3.jar C:\Users\harih\AppData\Local\Temp\surefire14884707115951080882 2026-07-24T11-21-28_726-jvmRun1 surefire-20260724112128967_1tmp surefire_0-20260724112128967_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\harih\AppData\Local\Temp\surefire10427894742053920594\surefirebooter-20260724112510842_3.jar C:\Users\harih\AppData\Local\Temp\surefire10427894742053920594 2026-07-24T11-25-10_624-jvmRun1 surefire-20260724112510842_1tmp surefire_0-20260724112510842_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\harih\Downloads\Cognizant deepskillling\JUnitDemo\target\test-classes;C:\Users\harih\Downloads\Cognizant deepskillling\JUnitDemo\target\classes;C:\Users\harih\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\harih\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\harih\Downloads\Cognizant deepskillling\MockitoDemo\MockitoDemo\target\test-classes;C:\Users\harih\Downloads\Cognizant deepskillling\MockitoDemo\MockitoDemo\target\classes;C:\Users\harih\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\harih\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\harih\.m2\repository\org\mockito\mockito-core\5.18.0\mockito-core-5.18.0.jar;C:\Users\harih\.m2\repository\net\bytebuddy\byte-buddy\1.17.5\byte-buddy-1.17.5.jar;C:\Users\harih\.m2\repository\net\bytebuddy\byte-buddy-agent\1.17.5\byte-buddy-agent-1.17.5.jar;C:\Users\harih\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\harih"/>
     <property name="user.language" value="en"/>
@@ -25,12 +25,12 @@
     <property name="java.version.date" value="2026-04-21"/>
     <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.3.9-hotspot"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\harih\Downloads\Cognizant deepskillling\JUnitDemo"/>
+    <property name="basedir" value="C:\Users\harih\Downloads\Cognizant deepskillling\MockitoDemo\MockitoDemo"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\harih\AppData\Local\Temp\surefire14884707115951080882\surefirebooter-20260724112128967_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\harih\AppData\Local\Temp\surefire10427894742053920594\surefirebooter-20260724112510842_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.3+9-LTS"/>
@@ -46,7 +46,7 @@
     <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
     <property name="java.io.tmpdir" value="C:\Users\harih\AppData\Local\Temp\"/>
     <property name="java.version" value="25.0.3"/>
-    <property name="user.dir" value="C:\Users\harih\Downloads\Cognizant deepskillling\JUnitDemo"/>
+    <property name="user.dir" value="C:\Users\harih\Downloads\Cognizant deepskillling\MockitoDemo\MockitoDemo"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -60,5 +60,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="testApp" classname="com.example.AppTest" time="0.0"/>
+  <testcase name="testExternalApi" classname="com.example.MyServiceTest" time="1.193">
+    <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\Users\harih\.m2\repository\net\bytebuddy\byte-buddy-agent\1.17.5\byte-buddy-agent-1.17.5.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+  </testcase>
 </testsuite>
